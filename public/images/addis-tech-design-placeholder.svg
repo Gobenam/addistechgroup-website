@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Addis Tech design photo placeholder</title>
+  <desc id="desc">Branded placeholder for a real Addis Tech design workshop photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#083344" />
+      <stop offset="100%" stop-color="#155e75" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)" />
+  <g fill="none" stroke="#00e0d1" stroke-opacity="0.12">
+    <circle cx="160" cy="120" r="120" />
+    <circle cx="1030" cy="620" r="220" />
+    <path d="M0 560C180 430 360 430 540 560s360 130 660-60" />
+  </g>
+  <rect x="80" y="80" width="1040" height="560" rx="44" fill="url(#panel)" stroke="#00e0d1" stroke-opacity="0.3" />
+  <text x="128" y="220" fill="#e2e8f0" font-size="70" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Design photo placeholder</text>
+  <text x="128" y="310" fill="#bae6fd" font-size="34" font-family="Segoe UI, Arial, sans-serif">Replace this with a real Addis Tech PCB design or engineering desk photo.</text>
+  <text x="128" y="402" fill="#67e8f9" font-size="26" font-family="Segoe UI, Arial, sans-serif">Suggested content: schematics review, CAD layout, or prototype design session.</text>
+  <text x="128" y="540" fill="#f8fafc" font-size="22" font-family="Consolas, monospace">public/images/design-team.jpg</text>
+</svg>

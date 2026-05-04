@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Addis Tech assembly photo placeholder</title>
+  <desc id="desc">Branded placeholder for a real Addis Tech assembly and testing photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#134e4a" />
+      <stop offset="100%" stop-color="#164e63" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)" />
+  <g fill="none" stroke="#5eead4" stroke-opacity="0.14">
+    <path d="M100 560h1000" />
+    <path d="M160 210h880" />
+    <path d="M240 140v430" />
+    <path d="M960 140v430" />
+  </g>
+  <rect x="80" y="80" width="1040" height="560" rx="44" fill="url(#panel)" stroke="#00e0d1" stroke-opacity="0.3" />
+  <text x="128" y="220" fill="#f0fdfa" font-size="68" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Assembly photo placeholder</text>
+  <text x="128" y="310" fill="#ccfbf1" font-size="34" font-family="Segoe UI, Arial, sans-serif">Replace this with a real Addis Tech assembly, soldering, or final test photo.</text>
+  <text x="128" y="402" fill="#67e8f9" font-size="26" font-family="Segoe UI, Arial, sans-serif">Suggested content: SMT assembly, bench testing, enclosure integration, or QA.</text>
+  <text x="128" y="540" fill="#f8fafc" font-size="22" font-family="Consolas, monospace">public/images/assembly-line.jpg</text>
+</svg>

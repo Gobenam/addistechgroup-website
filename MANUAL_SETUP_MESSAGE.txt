@@ -1,0 +1,67 @@
+Manual follow-up for developers
+
+What is already done
+- Navbar text is visible immediately, has better hover states, and includes a working Impact link.
+- Footer email is corrected to customerservice@addispcb.com.
+- Wrong social icons were replaced with LinkedIn, Facebook, and Instagram.
+- Contact information is centralized in src/lib/siteContent.ts.
+- The service and product stock images were replaced with branded placeholder images.
+- The hover overlay issue on service cards was fixed.
+- Footer branding was softened to sentence case and lighter typography.
+- The site builds successfully and is deployed on Vercel.
+- Vercel is now connected to the GitHub repository, so future pushes can trigger automatic deployments.
+
+What still needs manual business content
+1. Real social media URLs
+Why: the correct Addis Tech social page links were not in the spreadsheet.
+How:
+- Open src/lib/siteContent.ts.
+- Find the socialLinks array.
+- Replace each href: null with the real URL.
+- Example:
+  href: "https://www.linkedin.com/company/addis-tech-group"
+
+2. Real Addis Tech photos for services
+Why: the spreadsheet says stock images should be replaced with real photos.
+How:
+- Put the real image files inside public/images.
+- Good file names:
+  design-team.jpg
+  fabrication-floor.jpg
+  assembly-line.jpg
+- Open src/lib/siteContent.ts.
+- Update serviceImages.design, serviceImages.fabrication, and serviceImages.assembly to point to the real files.
+- Example:
+  design: "/images/design-team.jpg"
+
+3. Real Addis Nano / prototype product image
+Why: the spreadsheet says the generic IoT product image should be replaced with Addis Nano or a real prototype.
+How:
+- Add the image file to public/images.
+- Open src/lib/siteContent.ts.
+- Update productImages.addisThings.
+- Example:
+  addisThings: "/images/addis-nano-prototype.jpg"
+
+4. Real Addis Medical product image
+Why: the current product image is still a branded placeholder.
+How:
+- Add the image file to public/images.
+- Open src/lib/siteContent.ts.
+- Update productImages.addisMedical.
+
+
+Safe workflow
+1. Add new image files into public/images.
+2. Update the matching paths in src/lib/siteContent.ts.
+3. Run npm run build.
+4. Commit your changes and push to GitHub.
+5. Vercel will deploy the new version automatically.
+
+Files you will most likely edit
+- src/lib/siteContent.ts
+- src/components/Footer.tsx
+- public/images/
+
+Current live site
+- https://addis-tech-group-website.vercel.app
